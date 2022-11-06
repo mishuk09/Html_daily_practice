@@ -1,0 +1,35 @@
+
+ 
+
+h1:hover{
+    color: blue;
+    
+}
+.input:focus{
+    color: blue;
+    font-weight: 700;
+}
+a:visited{
+    color: red;
+
+}
+li:first-child{
+    color: blue;
+}
+li:last-child{
+    color: blueviolet;
+}
+li:nth-child(2n){
+    color: brown;
+}
+h3::before{
+    content: 'Hello';
+    font-size: 50px;
+
+
+}      
+
+
+
+
+
